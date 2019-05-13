@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8130386921EA6BFD00DAF4EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8130386821EA6BFD00DAF4EB /* AppDelegate.swift */; };
+		8130386B21EA6BFD00DAF4EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8130386A21EA6BFD00DAF4EB /* ViewController.swift */; };
+		8130386E21EA6BFD00DAF4EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8130386C21EA6BFD00DAF4EB /* Main.storyboard */; };
+		8130387121EA6BFD00DAF4EB /* Ortho_Graphos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8130386F21EA6BFD00DAF4EB /* Ortho_Graphos.xcdatamodeld */; };
+		8130387321EA6C0000DAF4EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8130387221EA6C0000DAF4EB /* Assets.xcassets */; };
+		8130387621EA6C0000DAF4EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8130387421EA6C0000DAF4EB /* LaunchScreen.storyboard */; };
+		8130387E21EA6C8300DAF4EB /* WordTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8130387D21EA6C8300DAF4EB /* WordTableTableViewController.swift */; };
+		8130388021EA6CA000DAF4EB /* WordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8130387F21EA6CA000DAF4EB /* WordCell.swift */; };
+		8130388421EA6CC000DAF4EB /* WordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8130388321EA6CC000DAF4EB /* WordModel.swift */; };
+		8130388A21EA797400DAF4EB /* PersistanceSrvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8130388921EA797400DAF4EB /* PersistanceSrvc.swift */; };
+		8130388D21EAB52600DAF4EB /* Word+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8130388B21EAB52600DAF4EB /* Word+CoreDataClass.swift */; };
+		8130388E21EAB52600DAF4EB /* Word+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8130388C21EAB52600DAF4EB /* Word+CoreDataProperties.swift */; };
+		818A622621FA4CA800B239BE /* wordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818A622521FA4CA800B239BE /* wordViewModel.swift */; };
+		818A622821FA892A00B239BE /* NodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818A622721FA892A00B239BE /* NodeModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8130386521EA6BFD00DAF4EB /* Ortho-Graphos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ortho-Graphos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8130386821EA6BFD00DAF4EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8130386A21EA6BFD00DAF4EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8130386D21EA6BFD00DAF4EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8130387021EA6BFD00DAF4EB /* Ortho_Graphos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ortho_Graphos.xcdatamodel; sourceTree = "<group>"; };
+		8130387221EA6C0000DAF4EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8130387521EA6C0000DAF4EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8130387721EA6C0000DAF4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8130387D21EA6C8300DAF4EB /* WordTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordTableTableViewController.swift; sourceTree = "<group>"; };
+		8130387F21EA6CA000DAF4EB /* WordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCell.swift; sourceTree = "<group>"; };
+		8130388321EA6CC000DAF4EB /* WordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordModel.swift; sourceTree = "<group>"; };
+		8130388921EA797400DAF4EB /* PersistanceSrvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceSrvc.swift; sourceTree = "<group>"; };
+		8130388B21EAB52600DAF4EB /* Word+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Word+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8130388C21EAB52600DAF4EB /* Word+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Word+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		818A622521FA4CA800B239BE /* wordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordViewModel.swift; sourceTree = "<group>"; };
+		818A622721FA892A00B239BE /* NodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8130386221EA6BFD00DAF4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8130385C21EA6BFD00DAF4EB = {
+			isa = PBXGroup;
+			children = (
+				8130386721EA6BFD00DAF4EB /* Ortho-Graphos */,
+				8130386621EA6BFD00DAF4EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8130386621EA6BFD00DAF4EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8130386521EA6BFD00DAF4EB /* Ortho-Graphos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8130386721EA6BFD00DAF4EB /* Ortho-Graphos */ = {
+			isa = PBXGroup;
+			children = (
+				8130388521EA6CE000DAF4EB /* Model */,
+				8130388621EA6CEB00DAF4EB /* View */,
+				8130388721EA6CF700DAF4EB /* Controller */,
+				8130388821EA794D00DAF4EB /* Service */,
+				8130387221EA6C0000DAF4EB /* Assets.xcassets */,
+				8130387721EA6C0000DAF4EB /* Info.plist */,
+			);
+			path = "Ortho-Graphos";
+			sourceTree = "<group>";
+		};
+		8130388521EA6CE000DAF4EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8130388B21EAB52600DAF4EB /* Word+CoreDataClass.swift */,
+				8130388C21EAB52600DAF4EB /* Word+CoreDataProperties.swift */,
+				8130388321EA6CC000DAF4EB /* WordModel.swift */,
+				8130386F21EA6BFD00DAF4EB /* Ortho_Graphos.xcdatamodeld */,
+				818A622521FA4CA800B239BE /* wordViewModel.swift */,
+				818A622721FA892A00B239BE /* NodeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8130388621EA6CEB00DAF4EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8130386C21EA6BFD00DAF4EB /* Main.storyboard */,
+				8130387421EA6C0000DAF4EB /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8130388721EA6CF700DAF4EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8130386821EA6BFD00DAF4EB /* AppDelegate.swift */,
+				8130386A21EA6BFD00DAF4EB /* ViewController.swift */,
+				8130387D21EA6C8300DAF4EB /* WordTableTableViewController.swift */,
+				8130387F21EA6CA000DAF4EB /* WordCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8130388821EA794D00DAF4EB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8130388921EA797400DAF4EB /* PersistanceSrvc.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8130386421EA6BFD00DAF4EB /* Ortho-Graphos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8130387A21EA6C0000DAF4EB /* Build configuration list for PBXNativeTarget "Ortho-Graphos" */;
+			buildPhases = (
+				8130386121EA6BFD00DAF4EB /* Sources */,
+				8130386221EA6BFD00DAF4EB /* Frameworks */,
+				8130386321EA6BFD00DAF4EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ortho-Graphos";
+			productName = "Ortho-Graphos";
+			productReference = 8130386521EA6BFD00DAF4EB /* Ortho-Graphos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8130385D21EA6BFD00DAF4EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "David Perez P.";
+				TargetAttributes = {
+					8130386421EA6BFD00DAF4EB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 8130386021EA6BFD00DAF4EB /* Build configuration list for PBXProject "Ortho-Graphos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8130385C21EA6BFD00DAF4EB;
+			productRefGroup = 8130386621EA6BFD00DAF4EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8130386421EA6BFD00DAF4EB /* Ortho-Graphos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8130386321EA6BFD00DAF4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8130387621EA6C0000DAF4EB /* LaunchScreen.storyboard in Resources */,
+				8130387321EA6C0000DAF4EB /* Assets.xcassets in Resources */,
+				8130386E21EA6BFD00DAF4EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8130386121EA6BFD00DAF4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8130387E21EA6C8300DAF4EB /* WordTableTableViewController.swift in Sources */,
+				8130388421EA6CC000DAF4EB /* WordModel.swift in Sources */,
+				8130388E21EAB52600DAF4EB /* Word+CoreDataProperties.swift in Sources */,
+				8130387121EA6BFD00DAF4EB /* Ortho_Graphos.xcdatamodeld in Sources */,
+				8130388D21EAB52600DAF4EB /* Word+CoreDataClass.swift in Sources */,
+				8130388A21EA797400DAF4EB /* PersistanceSrvc.swift in Sources */,
+				818A622621FA4CA800B239BE /* wordViewModel.swift in Sources */,
+				818A622821FA892A00B239BE /* NodeModel.swift in Sources */,
+				8130388021EA6CA000DAF4EB /* WordCell.swift in Sources */,
+				8130386B21EA6BFD00DAF4EB /* ViewController.swift in Sources */,
+				8130386921EA6BFD00DAF4EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8130386C21EA6BFD00DAF4EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8130386D21EA6BFD00DAF4EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8130387421EA6C0000DAF4EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8130387521EA6C0000DAF4EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8130387821EA6C0000DAF4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8130387921EA6C0000DAF4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8130387B21EA6C0000DAF4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73D7P6XKX3;
+				INFOPLIST_FILE = "Ortho-Graphos/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PerezP.Ortho-Graphos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8130387C21EA6C0000DAF4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73D7P6XKX3;
+				INFOPLIST_FILE = "Ortho-Graphos/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PerezP.Ortho-Graphos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8130386021EA6BFD00DAF4EB /* Build configuration list for PBXProject "Ortho-Graphos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8130387821EA6C0000DAF4EB /* Debug */,
+				8130387921EA6C0000DAF4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8130387A21EA6C0000DAF4EB /* Build configuration list for PBXNativeTarget "Ortho-Graphos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8130387B21EA6C0000DAF4EB /* Debug */,
+				8130387C21EA6C0000DAF4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8130386F21EA6BFD00DAF4EB /* Ortho_Graphos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8130387021EA6BFD00DAF4EB /* Ortho_Graphos.xcdatamodel */,
+			);
+			currentVersion = 8130387021EA6BFD00DAF4EB /* Ortho_Graphos.xcdatamodel */;
+			path = Ortho_Graphos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8130385D21EA6BFD00DAF4EB /* Project object */;
+}
